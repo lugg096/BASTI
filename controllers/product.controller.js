@@ -20,6 +20,7 @@ export const createProduct = async (req, res) => {
       nombre: req.body.nombre,
       desc: req.body.desc,
       pen: req.body.pen,
+      link: req.body.desc,
       tmp_reserva: req.body.tmp_reserva,
       usuario: req.body.usuario,
       status: req.body.status
